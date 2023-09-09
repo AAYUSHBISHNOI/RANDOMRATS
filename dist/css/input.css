@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.icon:hover svg path {
+    fill: red;
+}
+.icon:hover circle {
+    fill: white;
+}
+
+@font-face {
+    font-family: "press";
+    src: url(/dist/fonts/PressStart2P.ttf);
+}
